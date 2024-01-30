@@ -1,0 +1,4 @@
+INSERT INTO usuario (idUsuario, nombre, apellido_pat, apellido_mat, calle, numero, colonia, municipio, estado, email, contrasena, telefono, rfc, tipoPersona, regimenFiscal, nombreComercial, Csf, token, activacion, token_password)
+VALUES 
+('001', 'Juan', 'Pérez', 'Gómez', 'Calle A', 123, 'Colonia XYZ', 'Ciudad', 'Estado A', 'juan@example.com', 'clave123', '1234567890', 'ABC123DEF456', 'Física', 'Régimen General', 'Comercial ABC', 'contenido_del_Csf', 'token001', 1, 'token_pass_001'),
+('002', 'María', 'López', 'García', 'Calle B', 456, 'Colonia ABC', 'Ciudad', 'Estado B', 'maria@example.com', 'clave456', '0987654321', 'XYZ987WVU654', 'Moral', 'Régimen Simplificado', 'Comercial XYZ', 'contenido_del_Csf', 'token002', 1, 'token_pass_002');
